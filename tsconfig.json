@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["es6"],
+    "outDir": "out",
+    "rootDir": "src/extension",             // ✅ Very important: Source TypeScript files are here
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "node_modules",
+    ".vscode-test",
+    "media",
+    "ai-chat-vscode-extension-webview-ui"
+  ]
+}

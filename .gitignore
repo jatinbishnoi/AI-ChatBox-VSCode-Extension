@@ -1,0 +1,34 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VS Code extension build output
+out/
+dist/
+.vscode-test/
+
+# TypeScript
+*.tsbuildinfo
+
+# VS Code Workspace settings
+.vscode/
+
+# Env files
+.env
+.env.*
+
+# Webpack cache
+.cache/
+webpack.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Other
+*.vsix
